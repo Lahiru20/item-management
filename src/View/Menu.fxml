@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="262.0" prefWidth="407.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.MenuController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="66.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="407.0" />
+      <Label layoutX="128.0" layoutY="14.0" text="Main Menu" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="57.0" layoutY="81.0" mnemonicParsing="false" onAction="#btn_AddItem" prefHeight="46.0" prefWidth="308.0" text="Add Item" />
+      <Button layoutX="57.0" layoutY="136.0" mnemonicParsing="false" onAction="#btn_ViewItem" prefHeight="46.0" prefWidth="308.0" text="View Item" />
+      <Button layoutX="57.0" layoutY="192.0" mnemonicParsing="false" onAction="#btn_RemoveItem" prefHeight="46.0" prefWidth="308.0" text="Remove Item" />
+   </children>
+</AnchorPane>

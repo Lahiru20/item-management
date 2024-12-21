@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="303.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AddItemController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2155ff" height="63.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="327.0" />
+      <Label layoutX="103.0" layoutY="14.0" text="Add Item" textFill="#fffefe">
+         <font>
+            <Font name="Arial" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtItemName" layoutX="47.0" layoutY="127.0" prefHeight="26.0" prefWidth="238.0" promptText="Item Name" />
+      <TextField fx:id="txtPrice" layoutX="47.0" layoutY="202.0" prefHeight="26.0" prefWidth="238.0" promptText="Price" />
+      <TextField fx:id="txtQty" layoutX="47.0" layoutY="165.0" prefHeight="26.0" prefWidth="238.0" promptText="Quantity" />
+      <TextField fx:id="txtItemID" layoutX="46.0" layoutY="89.0" prefHeight="26.0" prefWidth="238.0" promptText="Item ID" />
+      <Button layoutX="187.0" layoutY="249.0" mnemonicParsing="false" onAction="#btn_AddItem" prefHeight="26.0" prefWidth="97.0" text="Add Item" />
+   </children>
+</AnchorPane>
